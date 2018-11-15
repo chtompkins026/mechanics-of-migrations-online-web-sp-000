@@ -5,8 +5,10 @@ class CreateArtists < ActiveRecord::Migration
   def down
   end
 
-  def change
+  ef change
+  create_table :artists do |t|
   end
+end
 
 
 end #end of the class 
